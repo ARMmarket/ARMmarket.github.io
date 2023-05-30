@@ -1,3 +1,180 @@
+.main{
+	width: 1000px;
+	margin: auto;
+}
+.header{
+	    width: 100%;
+
+    background-color: snow;
+    height: 90px;
+    box-shadow: 2px 2px 13px 0px gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head{
+	margin-left: -167px;
+}
+
+.logo{
+	width: 100px;
+}
+.logo_link{
+	text-decoration: none;
+	color: black;
+ }
+
+.menu{
+   display: flex;
+  list-style-type: none; 
+  margin-right: -100px;
+  padding: 0;
+}
+.menu_link{
+   color: black;
+   text-decoration: none;
+   display: inline-block;
+   padding: 10px;
+
+}
+.aj{
+	width: 80%;
+}
+.dzax{
+	width: 20%;
+}
+
+.a{
+	width: 50%;
+}
+.tablink {
+  background-color:black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width:;
+  margin-left: 5px;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cc{
+	text-align: center;
+	color:black;
+	
+
+}
+
+.dzaxx{
+	    width: 110px;
+    height: 30px;
+    color: silver;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border: 1px solid silver;
+    outline: none;
+
+}
+.products{
+	display: flex;
+	flex: wrap;
+	
+}
+.product{
+	margin: 5px;
+	margin-bottom: 10px;
+}
+
+	
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.product_tittle{
+	color: black;
+	text-align: left;
+	margin-top: 1px;
+}
+.silka{
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	margin: 10px;
+	margin-left: 35%;
+}
 @keyframes animateGirl {
 	0%{
 		transform: translateX(100% + 100vw);
@@ -59,84 +236,4 @@
 	border: none;
 	margin-bottom: 30px;
 }
-.a1{
-	text-decoration: none;
-	color: black;
-	margin-left: 250px;
-}
-.a{
-	text-decoration: none;
-	color: black;
-	
-}
-.a2{
-	text-decoration: none;
-	color: black;
-	font-size: bold;
-	margin-left: 550px;
-	
-}
-
-.group{
-	display: flex;
-	flex-wrap: wrap;
-}
-.group1{
-	display: flex;
-	
-}
-.header{
-	    width: 100%;
-
-    background-color: snow;
-    height: 90px;
-    box-shadow: 2px 2px 13px 0px gray;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.aj{
-	width:  20%;
-}
-.logo{
-width: 80px;
-}
-.aa{
-margin-left: 200px;
-	color:black;
-	font-size: 20px;
-	padding: 10px;
-	text-decoration: none;
-	 box-shadow: 2px 2px 13px 0px gray;
-	background-color: snow ;
-	
-}
-.aaa{
-	margin-left: 10px;
-
-	color:black;
-	font-size: 20px;
-	padding: 10px;
-	text-decoration: none;
-	 box-shadow: 2px 2px 13px 0px gray;
-	background-color: snow ;
-	
-}
-.nkar{
-	width: 100%;
-	 box-shadow: 2px 2px 13px 0px gray;
-}
-.c1{
-width: 100%;
-height: 900px;
-}
-.qw{
-	text-align: center;
-	color: black;
-}
-.com{
-
-}
-
-
 
